@@ -3,7 +3,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 0;
-    background: rgb(131, 240, 240);
+    background: rgb(131, 180, 240);
 }
 
 header {
@@ -43,7 +43,7 @@ header nav ul li {
     align-items: center;
 }
 .about {
-    background-color: grey;
+    background-color: #c79a9a;
 }
 
 .work {
@@ -55,7 +55,7 @@ header nav ul li {
 }
 
 .projects {
-    background-color: grey;
+    background-color: #c79a9a;
     display: flex;
 }
 
@@ -69,14 +69,7 @@ footer h2 {
     text-align: center;
 }
 
-footer div ul{
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        
+.contact {
+    display: flex;
+    list-style-type: none;
 }
-footer div ul li {
-    font-size: large;
-        margin-left: 25px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}        
