@@ -42,6 +42,32 @@ header nav ul li {
     border: 2px;
     border-color: beige;
     border-style: dotted;
+}
 
+body {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background: rgb(131, 240, 240);
+}
 
+footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(154, 124, 191);
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer div ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        
+}
+footer div ul li {
+        margin-left: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
