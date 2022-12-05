@@ -46,11 +46,9 @@ header nav ul li {
     border-style: dotted;
 }
 
-body {
-    width: 100%;
-    margin: auto;
-    padding: 0;
-    background: rgb(131, 240, 240);
+.projects {
+    background-color: grey;
+    display: flex;
 }
 
 footer {
