@@ -10,6 +10,7 @@ header {
         display: flex;
         justify-content: space-between;
         background-color: antiquewhite;
+        align-items: center;
 
 }
 
@@ -36,6 +37,7 @@ header nav ul li {
 #aboutme {
     display: flex;
     justify-content: center;
+   
 }
 .allwork {
     display: flex;
@@ -52,6 +54,10 @@ header nav ul li {
     border: 2px;
     border-color: beige;
     border-style: dotted;
+}
+
+.calculator {
+    color: purple;
 }
 
 .projects {
@@ -72,4 +78,5 @@ footer h2 {
 .contact {
     display: flex;
     list-style-type: none;
+    align-items: center;
 }
