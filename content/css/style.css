@@ -1,0 +1,47 @@
+
+body {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background: rgb(131, 240, 240);
+}
+
+header {
+        display: flex;
+        justify-content: space-between;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        
+}
+header nav ul li {
+        margin-left: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+#aboutme {
+    display: flex;
+    justify-content: center;
+}
+
+.work {
+    color: yellow;
+    background-color: black;
+    border: 2px;
+    border-color: beige;
+    border-style: dotted;
+
+
+}
