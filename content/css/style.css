@@ -9,6 +9,8 @@ body {
 header {
         display: flex;
         justify-content: space-between;
+        background-color: antiquewhite;
+
 }
 
 header h1 {
@@ -54,7 +56,7 @@ body {
 footer {
         display: flex;
         justify-content: space-between;
-        background-color: rgb(154, 124, 191);
+        background-color: antiquewhite;
 }
 
 footer h2 {
@@ -68,6 +70,7 @@ footer div ul{
         
 }
 footer div ul li {
+    font-size: large;
         margin-left: 25px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}        
