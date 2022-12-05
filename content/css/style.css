@@ -37,6 +37,14 @@ header nav ul li {
     display: flex;
     justify-content: center;
 }
+.allwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    background-color: grey;
+}
 
 .work {
     color: yellow;
