@@ -20,6 +20,8 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+link to my website: https://chrisjg19.github.io/Personal-Porfolio/
 
 Here is a screenshot of my Portfolio:
-![Alt text](content\images\screenshot of portfolio.png)
+![Screenschoot of Portfolio](content\images\screenshot of portfolio.png)
+
