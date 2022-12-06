@@ -53,7 +53,9 @@ header nav ul li {
     background-color: black;
     border: 2px;
     border-color: beige;
-    border-style: dotted;
+    border-style: groove;
+    width: 630px;
+    text-align: center;
 }
 
 .calculator {
