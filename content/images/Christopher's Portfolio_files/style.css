@@ -1,0 +1,91 @@
+
+body {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-image: url("background.jpg");
+}
+
+header {
+        display: flex;
+        justify-content: space-between;
+        background-color: antiquewhite;
+        align-items: center;
+
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        
+}
+header nav ul li {
+        margin-left: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+#aboutme {
+    display: flex;
+    justify-content: center;
+   
+}
+.allwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    background-color: #c79a9a;
+}
+
+.work {
+    display: flex;
+    color: yellow;
+    background-color: black;
+    border: 2px;
+    border-color: beige;
+    border-style: groove;
+    flex-direction: column;
+    text-align: center;
+}
+
+.span {
+
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    color: purple;
+}
+
+.projects {
+    background-color: #c79a9a;
+    display: flex;
+}
+
+footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: antiquewhite;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
