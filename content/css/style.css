@@ -1,9 +1,11 @@
-
+html {
+    100%
+}
 body {
     width: 100%;
     margin: auto;
     padding: 0;
-    background-image: url("calculator.jpg");
+    background-image: url("background.jpg");
 }
 
 header {
@@ -49,13 +51,20 @@ header nav ul li {
 }
 
 .work {
+    display: flex;
     color: yellow;
     background-color: black;
     border: 2px;
     border-color: beige;
     border-style: groove;
-    width: 630px;
+    flex-direction: column;
     text-align: center;
+}
+
+.span {
+
+    display: flex;
+    justify-content: center;
 }
 
 .calculator {
