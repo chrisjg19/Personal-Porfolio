@@ -3,7 +3,7 @@ body {
     width: 100%;
     margin: auto;
     padding: 0;
-    background: rgb(131, 180, 240);
+    background-image: url("calculator.jpg");
 }
 
 header {
